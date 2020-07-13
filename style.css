@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #2755a7;
+    color: #fff;
+    padding: .3%;
+    box-shadow: 0px 8px 8px 9px;
+}
+
+.parent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.child_1{
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 8px -8px #000;
+    margin: 1%;
+}
+
+.child_2{
+    width: 65%;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 8px -8px #000;
+}
+
+.role{
+    color: #2755a7;
+    font-style: italic;
+}
+
+/* Responsiveness */
+/* Small Screen Size Devices */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .child_1,
+    .child_2{
+         width: 95%;
+         background: #edf0f5;
+         font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .child_1,
+    .child_2{
+        width: 45%;
+        background: #f8f2e6;
+        font-size: 18px;
+    }
+}

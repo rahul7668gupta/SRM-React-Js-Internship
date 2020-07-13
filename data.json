@@ -1,0 +1,21 @@
+{
+    "profile": {
+        "basics1": {
+            "name": "Rahul Gupta",
+            "role": "MERN Developer",
+            "email":"rahul7668gupta@gmail.com",
+            "mobile": "+91-8500069274",
+            "address": "Amaravathi, AP"
+        },
+        "basics2": {
+            "name": "Rahul Gupta",
+            "role": "MERN Developer",
+            "email":"rahul7668gupta@gmail.com",
+            "mobile": "+91-8500069274",
+            "address": "Amaravathi, AP"
+        },
+        "details": {
+            
+        }
+    }
+}
