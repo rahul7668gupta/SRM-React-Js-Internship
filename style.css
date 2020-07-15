@@ -22,6 +22,7 @@ header{
     border: 1px solid #ddd;
     box-shadow: 0px 8px 8px -8px #000;
     margin: 1%;
+    height: 200px;
 }
 
 .child_2{
@@ -35,6 +36,23 @@ header{
 .role{
     color: #2755a7;
     font-style: italic;
+}
+
+.link{
+    text-decoration: none;
+    word-wrap: break-word;
+    display: block;
+}
+
+.skill{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px -8px #000;
+    background: #424cb4;
+    color: #fff;
+    border: 1px solid #1c2363;
+
 }
 
 /* Responsiveness */
